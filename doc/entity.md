@@ -35,7 +35,7 @@
         + creation_date
     }
 
-    class UserCoordinates{
+    class UserContact_information{
         + id
         + adress
         + postal_code
@@ -45,6 +45,7 @@
         + last_name
         + phone_number
         + creation_date
+        + FK-user_id
     }
 
     class  UserBankInformation{
@@ -54,8 +55,38 @@
         + first_name
         + last_name
         + creation_date
+        + FK-user_id
     }
 
+    class UserOrder{
+        + FK-user_id
+        + FK-order_id
+        + FK-delivery_information_id
+    }
+
+    class Order{
+        + id
+        + FK-product_id []
+        + creation_date
+        + FK-order_status_id
+    }
+
+    class Order_Status{
+        + id
+        + name
+    }
+
+    class DeliveryInformation{
+        + id
+        + FK-user_contact_information_id (client)
+        + FK-user_contact_information_id (postman)
+        + FK-DeliveryStatus_id
+    }
+
+    class DeliveryStatus{
+        + id
+        + name
+    }
 
     class  EmailSent{
         + id 
@@ -78,3 +109,5 @@
         + name
         + code
     }
+
+
