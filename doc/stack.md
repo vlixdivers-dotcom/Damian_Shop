@@ -26,3 +26,22 @@
 * Amen
   * à définir nom
   * à defnir plan paiment (renouvellement régulier ou plus cher)
+
+<ins>Serveurs</ins>
+
+Serveur dev: marcel + docker 
+
+Serveur production : vps dédié 
+
+<ins>Sauvegarde et redondance</ins>
+
+
+<ins>Sécurité</ins>
+
+Chiffrement des données personnelles 
+
+Chiffrement des données bancaires 
+
+sécurisation des pages (anti brut force)
+
+Protection des mails spam 
