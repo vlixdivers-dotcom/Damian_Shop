@@ -25,6 +25,25 @@
         + FK-type_id 
     }
 
+class Notation{
++id
++ note 
+}
+
+class Review {
++ id 
++ author_id 
++ header 
++ body 
++ creationDate 
+}
+
+class ProductReview{
++ id 
++ product_id
++ review_id 
+}
+
     class User : Entity{
         + email
         + password #
