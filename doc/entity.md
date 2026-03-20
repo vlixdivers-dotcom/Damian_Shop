@@ -44,6 +44,12 @@ class ProductReview{
 + review_id 
 }
 
+class ProductNotation{
+id
+product_id
+notation_id
+}
+
     class User : Entity{
         + email
         + password #
