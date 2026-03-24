@@ -18,7 +18,7 @@ Liste des articles avec quantité et prix total
 Enregistrer sur le local storage 
 
 Page de paiement : 
-Splice 
+Strice
 
 Page admin : 
 Liste des stocks et produits 

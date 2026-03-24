@@ -10,6 +10,8 @@ Sign up - /sign-up
 Member : 
 Profil - user/{usr_id}
 panier - /cart
+saisie d'information - /info-input
+paiement - /payment
 
 
 Admin : 
@@ -23,6 +25,7 @@ Product Details - /dashboard/product/{product_id}
 
 Users - /dashboard/users
 Users Details - /dashboard/users/{user_id}
+Users delete /users/delete/{user_id}
 
 Orders - /dashboard/orders
 Orders Details - /dashboard/orders/{order_id}
