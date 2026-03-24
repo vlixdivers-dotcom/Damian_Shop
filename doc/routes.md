@@ -1,11 +1,12 @@
-Route : 
+##Routes
 
-User : 
-Homepage - /
-Display - /display/{category_id}?type=[all,cdb,cbc]
-Product detail - /product/{product_id}
-Login - /login 
-Sign up - /sign-up
+User :
+
+- Homepage - /
+-Display - /display/{category_id}?type=[all,cdb,cbc]
+-Product detail - /product/{product_id}
+-Login - /login 
+-Sign up - /sign-up
 
 Member : 
 Profil - user/{usr_id}
@@ -16,7 +17,7 @@ paiement - /payment
 
 Admin : 
 
-Homepage - /dashboard
+- Dashboard - /dashboard
 
 Sales - /dashboard/sales
 
@@ -33,3 +34,5 @@ Orders Details - /dashboard/orders/{order_id}
 Edit Product - /dashboard/product/edit/{product_id}
 Delete Product - /dashboard/product/delete/{product_id}
 
+- Delete Product - /product/delete/{product_id}
+- Add product - /product/add/{json-product-infos}

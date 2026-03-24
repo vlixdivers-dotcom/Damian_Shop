@@ -31,6 +31,7 @@
         + FK-type_id 
     }
 
+<<<<<<< HEAD:doc/classDiagram.md
     class ProductEffect{
         + id
         + product_id
@@ -43,6 +44,32 @@
         + fk-product_id
         + notation
     }
+=======
+class Notation{
++id
++ note 
+}
+
+class Review {
++ id 
++ author_id 
++ header 
++ body 
++ creationDate 
+}
+
+class ProductReview{
++ id 
++ product_id
++ review_id 
+}
+
+class ProductNotation{
+id
+product_id
+notation_id
+}
+>>>>>>> 726cbd7e0d92ecdfb61904d6e5f8c3b76df1eba3:doc/entity.md
 
     class User : Entity{
         + email
