@@ -1,50 +1,76 @@
 ## Entitées sauvegardé en BDD (postgres)
 
+
     class Category{
         + id
-        + nom 
+        + name 
     }
 
     class Type{
         + id
-        + nom 
+        + name 
     } 
+
+    class Effect{
+        + id 
+        + name
+    }
 
 
     class Entity{ 
-        + id,
-        + Nom (slug)
+        + id
+        + name
         + creation_date 
     }
 
     class Product : Entity{
-        + Description
-        + Prix 
-        + Photo
-        + FK-categorie_id 
+        + description
+        + price
+        + image_url
+        + FK-category_id 
         + FK-type_id 
+    }
+
+    class ProductEffect{
+        + id
+        + product_id
+        + effect_id
+    }
+
+    class Review{
+        + id
+        + fk-user_id
+        + fk-product_id
+        + notation
     }
 
     class User : Entity{
         + email
+        + first_name
+        + last_name
+        + phone_number
         + password #
         + username
-        + FK-user_contact_information_id (delivery)       
-        + FK-user_contact_information_id (facturation) 
-        + FK-user_bank_information_id 
         + creation_date
     }
 
-    class UserContact_information{
+    class UserDeliveryAdress{
+        + id 
+        + adress
+        + postal_code
+        + town
+        + country
+        + details
+        + FK-user_id
+    }
+
+    class UserBillingAdress{
         + id
         + adress
         + postal_code
         + town
         + country
-        + first_name
-        + last_name
-        + phone_number
-        + creation_date
+        + details
         + FK-user_id
     }
 
@@ -58,35 +84,31 @@
         + FK-user_id
     }
 
+    
+
+    class Order{
+        + id
+        + creation_date
+    }
+
+    class ProductOrder{
+        + id
+        + FK-order_id
+        + FK-product_id  
+    }
+
     class UserOrder{
         + FK-user_id
         + FK-order_id
         + FK-delivery_information_id
     }
 
-    class Order{
-        + id
-        + FK-product_id []
-        + creation_date
-        + FK-order_status_id
-    }
-
-    class Order_Status{
+    class OrderStatus{
         + id
         + name
+        + FK-order_id
     }
 
-    class DeliveryInformation{
-        + id
-        + FK-user_contact_information_id (client)
-        + FK-user_contact_information_id (postman)
-        + FK-DeliveryStatus_id
-    }
-
-    class DeliveryStatus{
-        + id
-        + name
-    }
 
     class  EmailSent{
         + id 

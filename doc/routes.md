@@ -11,9 +11,22 @@ Member :
 Profil - user/{usr_id}
 panier - /cart
 
+
 Admin : 
 
-Dashboard - /dashboard
-Dashboard Display - /dashboard/display?category=[all,fleurs,resine,edibles]+type=[all,cdb,cbc]
-Edit Product - /product/edit/{product_id}
-Delete Product - /product/delete/{product_id}
+Homepage - /dashboard
+
+Sales - /dashboard/sales
+
+Product Display - /dashboard/display?category=[all,fleurs,resine,edibles]+type=[all,cdb,cbc]
+Product Details - /dashboard/product/{product_id}
+
+Users - /dashboard/users
+Users Details - /dashboard/users/{user_id}
+
+Orders - /dashboard/orders
+Orders Details - /dashboard/orders/{order_id}
+
+Edit Product - /dashboard/product/edit/{product_id}
+Delete Product - /dashboard/product/delete/{product_id}
+

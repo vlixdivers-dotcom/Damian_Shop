@@ -2,39 +2,39 @@
 
 En tant qu'utilisateur non connecté je souhaite - afin de -
 
-En tant qu'utilisateur non connecté je souhaite pouvoir entrer le nom d'un produit afin de le trouver
+entrer le nom d'un produit afin de le trouver
 
-En tant qu'utilisateur non connecté je souhaite naviguer entre les différentes catégorie afin de faire un choix
+naviguer entre les différentes catégorie afin de faire un choix
 
-En tant qu'utilisateur non connecté je souhaite pouvoir **regarder les articles** afin de me faire une idée
+regarder les articles afin de me faire une idée
 
-En tant qu'utilisateur non connecté je souhaite pouvoir ajouter un produit à mon panier afin de faire une pré-selection
+ajouter un produit à mon panier afin de faire une pré-selection
 
-En tant qu'utilisateur non connecté je souhaite pouvoir accéder à mon panier afin de consulté ma liste 
+accéder à mon panier afin de consulté ma liste 
 
-En tant qu'utilisateur non connecté je souhaite me connecter afin de pouvoir commander
+me connecter afin de pouvoir commander
 
-En tant qu'utilisateur non connecté je souhaite m'inscrire afin de pouvoir commander 
+m'inscrire afin de pouvoir commander 
 
-En tant qu'utilisateur non connecté je souhaite avoir un mail de confirmation de création de compte afin de m'assurer de la bonne validité
+un mail de confirmation de création de compte afin de m'assurer de la bonne validité
 
-En tant qu'utilisateur non connecté je souhaite modifié de mot de passe afin de ne pas être bloqué si je l'oublie
+modifié de mot de passe afin de ne pas être bloqué si je l'oublie
 
 ## utilisateur connecté 
 
 En tant qu'utilisateur connecté je souhaite - afin de -
 
-En tant qu'utilisateur connecté je souhaite pouvoir accéder à la page de paiement afin de passer commande
+accéder à la page de paiement afin de passer commande
 
-En tant qu'utilisateur connecté je souhaite pouvoir enregister mes informations personnelle pour simplifier mes prochains achats
+enregister mes informations personnelle pour simplifier mes prochains achats
 
-En tant qu'utilisateur connecté je souhaite accéder à mon compte afin de modifier les informations rentré
+accéder à mon compte afin de modifier les informations rentré
 
-En tant qu'utilisateur connecté je souhaite pouvoir me déconnecter
+déconnecter
 
-En tant qu'utilisateur connecté je souhaite avoir un mail de confirmation une fois la commande passé
+un mail de confirmation une fois la commande passé
 
-En tant qu'utilisateur connecté je souhaite une estimation de temps de livraison lors du passage de commande
+estimation de temps de livraison lors du passage de commande
 
 
 
@@ -43,11 +43,36 @@ En tant qu'utilisateur connecté je souhaite une estimation de temps de livraiso
 
 En tant qu'admin je souhaite - afin de -
 
-En tant qu'admin je souhaite avoir un dashboard afin de controler mes stocks et produit 
+Consulté mes produits
 
-En tant qu'admin je souhaite modifié les informations lié au produits
+Un retour sur les stocks
 
-En tant qu'admin je souhaite modifié les informations lié au catalogue 
+Un retour sur l'avis général
+
+un retour des ventes d'un produits
+
+Ajouter un produit 
+
+Modifié les informations lié au produits
+
+Supprimé un produit 
+
+Consulté les livraisons en cours
+
+Consulté les livraisons en préparation
+
+Consulté les livraisons délivré
+
+Supprimer une livraison
+
+Consulté un utilisateur 
+
+Consulté les commandes d'un utilisateur
+
+Envoyé un mail à un utilisateur 
+
+Supprimer un utilisateur 
+
 
 
 

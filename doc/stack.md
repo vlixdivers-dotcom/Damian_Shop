@@ -26,3 +26,10 @@
 * Amen
   * à définir nom
   * à defnir plan paiment (renouvellement régulier ou plus cher)
+
+
+<ins>Dashboard</ins>
+- Tailadmin dashboard
+
+<ins>Design</ins>
+- Tailwind
